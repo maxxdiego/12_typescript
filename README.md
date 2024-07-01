@@ -1,5 +1,19 @@
 # 11_typescript
 
+## COMO RODAR O PROJETO BAIXADO
+
+### Instalar todas as dependências indicadas pelo package.json
+```bash
+npm install
+```
+
+### Executar o arquivo JavaScript compilado
+```bash
+node dist/index.js
+```
+
+## SEQUÊNCIA PARA CRIAR O PROJETO
+
 ### Verificar se o Node.js está instalado na máquina
 ```bash
 node -v
