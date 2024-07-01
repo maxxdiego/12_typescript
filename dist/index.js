@@ -35,3 +35,23 @@ let dia;
 console.log(`Número que representa domingo: ${DayOfTheWeek.Sunday}`);
 console.log(`Número que representa sexta: ${DayOfTheWeek.Friday}`);
 // Criar variável do tipo any, atribuir qualquer tipo de valor para a variável
+let data;
+data = 10; // Atribuir um valor do tipo número
+console.log(`Valor atribuído é número: ${data}`);
+data = "Diego"; // Atribuir um valor do tipo string
+console.log(`Valor atribuído é texto: ${data}`);
+// Criar variável do tipo null e undefined
+let variableNull = null;
+let variableUndefined = undefined;
+console.log(`Variável nula: ${variableNull}`);
+console.log(`Variável indefinida: ${variableUndefined}`);
+;
+let client = {
+    name: "Diego",
+    amount: 7
+};
+console.log(`Nome do cliente: ${client.name}`);
+console.log(`Quantidade de compras do cliente: ${client.amount}`);
+// Criar variável utilizando union indicando um ou mais tipo
+const value = "Diego";
+console.log(`Valor pode ser string ou boolean: ${value}`);
