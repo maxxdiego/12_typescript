@@ -20,3 +20,7 @@ npm install --save-dev typescript
 ```bash
 npx tsc --init
 ```
+### Compilar os arquivos TypeScript
+```bash
+npx tsc
+```
