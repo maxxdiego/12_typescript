@@ -15,3 +15,8 @@ npm init -y
 ```bash
 npm install --save-dev typescript
 ```
+
+### Criar o arquivo tsconfig.json, executar quando o typescript foi instalado somente no projeto
+```bash
+npx tsc --init
+```
