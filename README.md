@@ -36,5 +36,10 @@ npx tsc --init
 ```
 ### Compilar os arquivos TypeScript
 ```bash
-npx tsc
+npx tsc --watch
+```
+
+### Executar o arquivo JavaScript compilado
+```bash
+node dist/index.js
 ```
