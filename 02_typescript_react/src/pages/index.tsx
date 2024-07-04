@@ -1,7 +1,8 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
+import Menu from "@/components/Menu";
 
-export default function Home() {
+ const Home = () : React.ReactElement => {
   return (
     <>
       <Head>
@@ -12,7 +13,10 @@ export default function Home() {
       </Head>
       <main>
         <h2>Página Inicial</h2>
+        <Menu />
       </main>
     </>
   );
 }
+
+export default Home;
