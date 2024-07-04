@@ -1,4 +1,4 @@
-# React (Next)
+# Typescript e React (Next)
 ![NPM](https://img.shields.io/npm/l/react)
 # Descrição
 

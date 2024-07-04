@@ -1,45 +1,59 @@
-# 11_typescript
+# Typescript e React (Next)
+![NPM](https://img.shields.io/npm/l/react)
+# Descrição
 
-## COMO RODAR O PROJETO BAIXADO
+:warning: Ainda em construção. :construction:
 
-### Instalar todas as dependências indicadas pelo package.json
+## Como executar
+
+Pré-requisitos: 
+- Visual Studio Code
+- GIT
+
 ```bash
+# clonar repositório
+git clone https://github.com/maxxdiego/11_typescript.git
+
+```
+
+```bash
+# Instalar todas as dependências indicadas pelo package.json
 npm install
+
 ```
 
-### Executar o arquivo JavaScript compilado
 ```bash
-node dist/index.js
+# Rodar o projeto React
+npm run dev
+
 ```
 
-## SEQUÊNCIA PARA CRIAR O PROJETO
-
-### Verificar se o Node.js está instalado na máquina
 ```bash
-node -v
-```
+# No navegador acessar a aplicação através do 
+http://localhost:3000
 
-### Criar o arquivo package.json
-```bash
-npm init
-npm init -y
 ```
 
-### Instalar o TypeScript como uma dependência de desenvolvimento
+## SEQUÊNCIA PARA CRIAR UM PROJETO REACT
 ```bash
-npm install --save-dev typescript
+# Criar o projeto
+npx create-next-app
+
 ```
 
-### Criar o arquivo tsconfig.json, executar quando o typescript foi instalado somente no projeto
 ```bash
-npx tsc --init
-```
-### Compilar os arquivos TypeScript
-```bash
-npx tsc --watch
+# Acessar o diretório do projeto
+cd [nome-da-pasta]
+
 ```
 
-### Executar o arquivo JavaScript compilado
 ```bash
-node dist/index.js
+# Rodar o projeto React
+npm run dev
+
 ```
+
+# Autor
+
+Prof. Diego Max da Silva<br>
+https://lattes.cnpq.br/4370663836049458
