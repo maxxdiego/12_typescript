@@ -18,3 +18,25 @@ function getSituation(current) {
 }
 // Chamar a função e imprimir o valor
 console.log(getSituation(9));
+// Criar a função para receber uma variável do tipo any e retornar string
+function getValue(value) {
+    if (typeof value === "string") {
+        return "Valor do tipo string";
+    }
+    else {
+        return "Valor diferente de string";
+    }
+}
+// Chamar a função e imprimir o valor
+console.log(getValue("Diego"));
+// Criar a função para receber uma variável do tipo string ou number e retornar string
+function getType(valueType) {
+    if (typeof valueType === "string") {
+        return "Valor do tipo string";
+    }
+    else {
+        return "Valor do tipo number";
+    }
+}
+// Chamar a função e imprimir o valor
+console.log(getType(5));
