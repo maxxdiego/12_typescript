@@ -71,7 +71,7 @@
 
 /* RESPONSIVIDADE */
 
-@media (maxwidth: 690px) {
+@media (max-width: 690px) {
   .content {
     padding: 20px 0;
   }

@@ -2,6 +2,7 @@ import Head from "next/head";
 import Menu from "@/components/Menu";
 import HomeTop from "@/components/HomeTop";
 import HomeServ from "@/components/HomeServ";
+import HomePrem from "@/components/HomePrem";
 
 const Home = (): React.ReactElement => {
   return (
@@ -16,6 +17,7 @@ const Home = (): React.ReactElement => {
         <Menu />
         <HomeTop />
         <HomeServ />
+        <HomePrem />
       </main>
     </>
   );
