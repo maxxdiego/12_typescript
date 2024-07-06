@@ -12,7 +12,7 @@ Pré-requisitos:
 
 ```bash
 # clonar repositório
-git clone https://github.com/maxxdiego/11_typescript.git
+git clone https://github.com/maxxdiego/12_typescript.git
 
 ```
 
