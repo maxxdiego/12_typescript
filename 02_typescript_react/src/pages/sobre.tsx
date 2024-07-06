@@ -2,8 +2,9 @@ import Head from "next/head";
 import Menu from "@/components/Menu";
 import AboutContent from "@/components/AboutContent";
 import Footer from "@/components/Footer";
+import React from "react";
 
-export default function Sobre() {
+const Sobre = (): React.ReactElement => {
   return (
     <>
       <Head>
@@ -20,3 +21,5 @@ export default function Sobre() {
     </>
   );
 }
+
+export default Sobre
