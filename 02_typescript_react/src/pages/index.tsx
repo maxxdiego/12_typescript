@@ -1,8 +1,9 @@
 import Head from "next/head";
-import styles from "@/styles/Home.module.css";
 import Menu from "@/components/Menu";
+import HomeTop from "@/components/HomeTop";
+import HomeServ from "@/components/HomeServ";
 
- const Home = () : React.ReactElement => {
+const Home = (): React.ReactElement => {
   return (
     <>
       <Head>
@@ -12,11 +13,12 @@ import Menu from "@/components/Menu";
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h2>Página Inicial</h2>
         <Menu />
+        <HomeTop />
+        <HomeServ />
       </main>
     </>
   );
-}
+};
 
 export default Home;

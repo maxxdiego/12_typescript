@@ -1,3 +1,4 @@
+import Menu from "@/components/Menu";
 import Head from "next/head";
 
 export default function Contato() {
@@ -10,7 +11,7 @@ export default function Contato() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h2>Contato</h2>
+        <Menu />
       </main>
     </>
   );
