@@ -4,7 +4,7 @@ import Link from "next/link";
 const HomePrem = (): React.ReactElement => {
   return (
     <>
-      <section className={styles.premium}>
+      <section className={`${styles.premium} ${styles.content}`}>
         <div className={styles.maxWidth}>
           <h2 className={styles.title}>Serviço Premium</h2>
           <div className={styles.premiumContent}>

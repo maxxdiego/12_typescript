@@ -1,0 +1,47 @@
+.maxWidth {
+  max-width: 1300px;
+  padding: 0 10px;
+  margin: auto;
+}
+
+.content {
+  padding: 50px 0;
+}
+
+/* Início do rodapé */
+.footer {
+  background: var(--second-color);
+  height: 130px;
+  padding: 25px 23px;
+  color: var(--site-color);
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer span a{
+  color: var(--active-color);
+}
+
+.footer span a:hover{
+  color: var(--site-color);
+}
+/* Fim do rodapé */
+
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 690px) {
+  .content {
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 947px) {
+
+}
+
+@media (max-width: 1104px){
+
+}
