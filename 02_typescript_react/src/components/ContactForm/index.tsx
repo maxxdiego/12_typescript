@@ -19,11 +19,11 @@ const ContactForm = (): React.ReactElement => {
         </div>
 
         <div className={`${styles.field} ${styles.textarea}`}>
-          {/* <textarea
-            cols="30"
-            rows="10"
+          <textarea
+            cols={30}
+            rows={10}
             placeholder="Digite o conteúdo"
-          ></textarea> */}
+          ></textarea>
         </div>
 
         <div className={styles.buttonArea}>

@@ -9,7 +9,7 @@ const Home = (): React.ReactElement => {
   return (
     <>
       <Head>
-        <title>Typescript e React</title>
+        <title>Neotech</title>
         <meta name="description" content="Site modelo com Typescript e React" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
