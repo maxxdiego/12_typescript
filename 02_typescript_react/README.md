@@ -1,8 +1,5 @@
 # Typescript e React (Next)
 ![NPM](https://img.shields.io/npm/l/react)
-# Descrição
-
-:warning: Ainda em construção. :construction:
 
 ## Como executar
 
@@ -34,7 +31,7 @@ http://localhost:3000
 
 ```
 
-## SEQUÊNCIA PARA CRIAR UM PROJETO REACT
+## Sequência para criar um projeto React
 ```bash
 # Criar o projeto
 npx create-next-app
@@ -52,6 +49,8 @@ cd [nome-da-pasta]
 npm run dev
 
 ```
+
+<hr>
 
 # Autor
 
