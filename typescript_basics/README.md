@@ -1,6 +1,6 @@
 # 12_typescript
 
-## COMO RODAR O PROJETO BAIXADO
+## Como rodar o projeto baixado:
 
 ### Instalar todas as dependências indicadas pelo package.json
 ```bash
@@ -12,7 +12,7 @@ npm install
 node dist/index.js
 ```
 
-## SEQUÊNCIA PARA CRIAR O PROJETO
+## Sequência para criar o projeto:
 
 ### Verificar se o Node.js está instalado na máquina
 ```bash
@@ -43,3 +43,10 @@ npx tsc --watch
 ```bash
 node dist/index.js
 ```
+
+<hr>
+
+# Autor
+
+Prof. Diego Max da Silva<br>
+https://lattes.cnpq.br/4370663836049458
