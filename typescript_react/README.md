@@ -1,5 +1,4 @@
 # Typescript e React (Next)
-![NPM](https://img.shields.io/npm/l/react)
 
 ## Como executar
 

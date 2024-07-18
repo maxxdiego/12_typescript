@@ -1,4 +1,4 @@
-# 12_typescript
+# Typescript basics
 
 ## Como rodar o projeto baixado:
 
