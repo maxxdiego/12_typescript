@@ -48,16 +48,24 @@ http://localhost:3000
 
 ```
 
-## Sequência para criar um projeto React
+## Sequência para criar um projeto React + Vite
 ```bash
-# Criar o projeto
-npx create-next-app
+# Acessar o diretório do projeto
+cd [nome-da-pasta]
 
 ```
 
 ```bash
-# Acessar o diretório do projeto
-cd [nome-da-pasta]
+# Criar o projeto
+npx create-vite .
+
+Selecionar: React -> Typescript
+
+```
+
+```bash
+# Instalar dependências
+npm install
 
 ```
 
