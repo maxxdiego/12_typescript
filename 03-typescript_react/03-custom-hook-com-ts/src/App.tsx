@@ -1,5 +1,6 @@
 import "./App.css";
 import Counter from "./components/Counter";
+import CounterInterval from "./components/CounterInterval";
 import Greetings from "./components/Greetings";
 import TextInput from "./components/TextInput";
 
@@ -13,6 +14,8 @@ function App() {
       <Counter />
       {/* 3 - Manipulação de eventos com tipos */}
       <TextInput />
+      {/* 4 - Custom hooks com TS */}
+      <CounterInterval />
     </>
   );
 }
