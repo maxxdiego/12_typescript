@@ -1,6 +1,7 @@
 import './App.css'
 import FormularioLogin from './components/FormularioLogin'
 import ListaDeCompras from './components/ListaDeCompras'
+import LocalStorage from './components/LocalStorage'
 
 function App() {
 
@@ -14,6 +15,10 @@ function App() {
       <div>
         <h1>Exercício 02</h1>
         <ListaDeCompras />
+      </div>
+      <div>
+        <h1>Exercício 03</h1>
+        <LocalStorage />
       </div>
     </>
   )
